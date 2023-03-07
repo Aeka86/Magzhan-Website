@@ -91,12 +91,45 @@ a {
   width: 30px;
 }
 
+
+/* Press */
+.container3 {
+  background-color: #EFF1F3;
+  background-repeat: no-repeat;
+}
+.txt {
+  padding-top: 5%;
+font-size: 30px;
+letter-spacing: .6em;
+line-height: 1.5;
+}
+#icons {
+  display: flex;
+	justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 5%;
+padding-bottom: 10%;
+}
+.icon1 {
+width: 75px;
+}
+.icon2 {
+  width: 75px;
+}
+.icon3 {
+  width: 80px;
+}
+
+
 /* About */
 .container2 {
   display: flex;
   align-items: center; 
   justify-content: center;
-  
+  background-image: url("https://lh3.googleusercontent.com/fFKewH5a7WIBltpP45Pgtx1LvjFHF-qBfuqu-AZeiB5EYMQN0r4f9RiFPm3wNk8jcKOBuLdFi8ir6TbwMMWG5btpH94NbBP171h2-VBAvWMdZp9d7ZPuETVzLkY-2YL5u0tHnG_kRpQ=w2400");
+  background-repeat: no-repeat;
+  max-width: 100%;
  }
 
  .img2 {
@@ -120,6 +153,6 @@ a {
 
 .text h3 {
   font-size: 35px;
-  background-color: #D3D0CB;
+  background-color: #bfd2df;
 
 }
