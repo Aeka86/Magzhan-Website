@@ -127,9 +127,10 @@ width: 75px;
   display: flex;
   align-items: center; 
   justify-content: center;
-  background-image: url("https://lh3.googleusercontent.com/fFKewH5a7WIBltpP45Pgtx1LvjFHF-qBfuqu-AZeiB5EYMQN0r4f9RiFPm3wNk8jcKOBuLdFi8ir6TbwMMWG5btpH94NbBP171h2-VBAvWMdZp9d7ZPuETVzLkY-2YL5u0tHnG_kRpQ=w2400");
+  background-image: url("https://img.freepik.com/premium-vector/modern-white-gray-abstract-web-banner-background-creative-design-with-stripe-lines-minimal-geometric-shapes-vector-abstract-graphic-design-banner-pattern-background-template_181182-18232.jpg");
   background-repeat: no-repeat;
   max-width: 100%;
+  background-size: cover;
  }
 
  .img2 {
