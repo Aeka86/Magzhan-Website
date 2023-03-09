@@ -127,10 +127,7 @@ width: 75px;
   display: flex;
   align-items: center; 
   justify-content: center;
-  background-image: url("https://img.freepik.com/premium-vector/modern-white-gray-abstract-web-banner-background-creative-design-with-stripe-lines-minimal-geometric-shapes-vector-abstract-graphic-design-banner-pattern-background-template_181182-18232.jpg");
-  background-repeat: no-repeat;
   max-width: 100%;
-  background-size: cover;
  }
 
  .img2 {
@@ -159,4 +156,13 @@ width: 75px;
   font-size: 35px;
   background-color: #bfd2df;
 
+}
+
+.hidden {
+opacity: 0;
+transition: all 1s;
+}
+
+.show {
+opacity: 1;
 }
