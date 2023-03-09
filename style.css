@@ -128,6 +128,7 @@ width: 75px;
   align-items: center; 
   justify-content: center;
   max-width: 100%;
+  padding-top: 10%;
  }
 
  .img2 {
@@ -149,7 +150,6 @@ width: 75px;
   font-size: 20px;
   line-height: 1.7;
   font-family: 'Metrophobic', sans-serif;
-
 }
 
 .text h3 {
@@ -157,12 +157,18 @@ width: 75px;
   background-color: #bfd2df;
 
 }
-
-.hidden {
-opacity: 0;
-transition: all 1s;
+.txt1 {
+  text-align: right;
 }
+.txt2 {
+  text-align: left;
+}
+.hidden {
+  opacity: 0;
+  transition: all 2s ease-in-out;
+  }
 
 .show {
 opacity: 1;
+transform: scale(1);
 }
