@@ -108,5 +108,53 @@ nav {
 width: 75%;
 height: 75%;
 max-width: 100%;
-margin: 0 0 5% 10%;
+margin: 0 0 5% 5%;
+}
+
+/* stories section */
+
+.container2 {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  max-width: 100%;
+  padding-top: 5%;
+ }
+
+ .img2 {
+  padding-top: 10%;
+  margin-left: 10%;
+  margin-top: 5%;
+  max-width: 60%;
+  max-height: 30%;
+}
+.text1, .text2 {
+  width: 75%;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 10% 0 10%;
+  font-size: 20px;
+  line-height: 1.7;
+  font-family: 'Metrophobic', sans-serif;
+}
+
+
+.text1 h3, .text2 h3 {
+  font-size: 35px;
+  margin-bottom: 0;
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 2s ease-in-out;
+  }
+
+.show {
+opacity: 1;
+transform: scale(1);
+}
+
+/* link in the expeditions stories */
+.link {
+  color: blue;
 }

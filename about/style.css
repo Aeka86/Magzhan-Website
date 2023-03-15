@@ -156,13 +156,7 @@ width: 75px;
 .text h3 {
   font-size: 35px;
   background-color: #bfd2df;
-
-}
-.txt1 {
-  text-align: right;
-}
-.txt2 {
-  text-align: left;
+text-align: center;
 }
 .hidden {
   opacity: 0;
