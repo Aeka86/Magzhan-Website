@@ -104,11 +104,12 @@ nav {
     justify-content: center;
   }
   /* image with text */
+
 .image {
 width: 75%;
 height: 75%;
 max-width: 100%;
-margin: 0 0 5% 10%;
+margin: 0 0 5% 12%;
 }
 
 /* stories section */
@@ -157,4 +158,41 @@ transform: scale(1);
 /* link in the expeditions stories */
 .link {
   color: blue;
+}
+
+.statement p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.7;
+  padding: 5% 20% 0 20%;
+  color: red;
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+  color: red;
+}
+
+.insta h4 {
+  text-align: center;
+}
+
+.link1 {
+  color: #454545;
+font-family: 'Rubik', sans-serif;
+font-size: 30px;
+font-weight: 400;
+}
+
+.insta_link img {
+  display: grid;
+  max-width: 30%;
+  max-height: 30%;
+  margin-left: 35%;
+  margin-right: 20%;
+  padding-bottom: 5%;
+  padding-top: 2%;
 }
