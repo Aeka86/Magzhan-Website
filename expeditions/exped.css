@@ -195,6 +195,7 @@ h5 {
 .insta h4 {
   text-align: center;
 }
+/* link to instagram */
 
 .link1 {
 color: #454545;
@@ -203,13 +204,15 @@ font-size: 30px;
 font-weight: 400;
 }
 
-.insta_link img {
-  display: grid;
-  max-width: 30%;
-  max-height: 30%;
-  margin-left: 35%;
-  margin-right: 20%;
-  padding-bottom: 5%;
-  padding-top: 2%;
+.insta_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
 }
 
+.insta_link img {
+  padding-bottom: 5%;
+  padding-top: 2%;
+max-width: 450px;
+}
