@@ -8,3 +8,5 @@ window.addEventListener('scroll', () => {
         content.classList.remove('active');
     }
 })
+
+const toTop = () => window.scrollTo({top: 0, behavior: 'smooth'})

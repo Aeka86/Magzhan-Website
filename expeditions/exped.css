@@ -216,3 +216,20 @@ font-weight: 400;
   padding-top: 2%;
 max-width: 450px;
 }
+/* back to top button */
+.top-button {
+  background-color: #fff;
+  border: none;
+  color: black;
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  float: right;
+  border-radius: 10px;
+  width: 100px;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
