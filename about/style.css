@@ -203,6 +203,25 @@ transform: scale(1);
   height: 10vh;
 }
 
+/* button to TOP */
+
+.top-button {
+  background-color: #fff;
+  border: none;
+  color: black;
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 100px;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  float: right;
+}
+
 /* RESPONSIVE */
 
 @media screen and (min-width: 750px) {

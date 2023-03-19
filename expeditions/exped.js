@@ -8,5 +8,5 @@ window.addEventListener('scroll', () => {
         content.classList.remove('active');
     }
 })
-
+// button to TOP
 const toTop = () => window.scrollTo({top: 0, behavior: 'smooth'})
