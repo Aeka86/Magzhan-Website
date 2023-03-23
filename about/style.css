@@ -1,8 +1,8 @@
 html,
 body {
-  height: 100%;
-  background-image: url("https://lh3.googleusercontent.com/dqemjGjCssTPg5ChFO-b-Ns-1zq68l1XGpWBngnLVxFX4DpIc-pZrULo9XQXfZNemOhqhpnyqrh9JsYyevrTCpsDP7SO0TTLVghxPHWNQvjWD5Ub5le_JIThOylABjhl5-jVhBFPWhw=w2400");
-  background-size: cover;
+height: 100%;
+background-image: url("https://lh3.googleusercontent.com/dqemjGjCssTPg5ChFO-b-Ns-1zq68l1XGpWBngnLVxFX4DpIc-pZrULo9XQXfZNemOhqhpnyqrh9JsYyevrTCpsDP7SO0TTLVghxPHWNQvjWD5Ub5le_JIThOylABjhl5-jVhBFPWhw=w2400");
+background-size: cover;
  background-repeat: no-repeat;
 }
 
@@ -19,8 +19,8 @@ h1 {
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
- color: #454545;
-font-family: 'Rubik', sans-serif;
+  color: #454545;
+  font-family: 'Rubik', sans-serif;
 }
 
 
