@@ -29,12 +29,11 @@ h2 {
   padding-left: 20%;
   padding-right: 20%;
   font-size: 30px;
-  text-align: center;
-  text-transform: full-width;
+  text-align: center; 
   justify-content: center;
-  white-space: pre-wrap;
   font-family: "Rubik", sans-serif;
   color: #454545;
+  line-height: 3rem;
 }
 
 nav {
