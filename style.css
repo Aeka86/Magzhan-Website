@@ -313,4 +313,8 @@ span img {
   .img1 {
     width: 100%;
   }
+
+  .box_container {
+    background-color: #454545;
+  }
 }
