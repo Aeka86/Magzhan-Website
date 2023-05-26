@@ -302,7 +302,7 @@ span img {
     padding: 0;
   }
   .container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 6% 3%;
   }
   .container p {
