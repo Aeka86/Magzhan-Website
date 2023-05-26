@@ -256,6 +256,7 @@ span img {
 
 @media screen and (max-width: 749px) {
   html {
+    width: 100%;
     background-size: cover;
     background-position: center;
   }
@@ -278,13 +279,13 @@ span img {
   }
   h1 {
     font-size: 50px;
-   margin-bottom: 30%;
+    margin-bottom: 30%;
   }
   header p {
     font-size: 30px;
     white-space: normal;
   }
-  
+
   .projects-grid {
     grid-template-columns: repeat(1, 100%);
     gap: 1rem;
