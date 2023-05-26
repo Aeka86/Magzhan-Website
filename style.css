@@ -275,8 +275,8 @@ span img {
   list-style: none;
   }
   .nav-list li {
-    border-right: 2px transparent;
-    margin-right: 8px;
+    border-right: 1px transparent;
+    margin-right: 3px;
     /* padding-right: 10px; */
     padding: 0 5px;
   }
