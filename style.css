@@ -255,26 +255,30 @@ span img {
 }
 
 @media screen and (max-width: 749px) {
-  html {
+  html, body {
     background-size: cover;
     background-position: center;
+    overflow-x: hidden;
   }
-  nav {
+  .nav {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 999;
   }
   .nav-list {
     margin: 0;
-    padding: 10px;
-    
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  list-style: none;
   }
   .nav-list li {
-    border-right: 1px transparent;
-    margin-right: 5px;
-    padding-right: 10px;
+    border-right: 2px transparent;
+    margin-right: 8px;
+    /* padding-right: 10px; */
+    padding: 0 5px;
   }
   .content-wrap {
     max-width: 100%;
@@ -284,11 +288,12 @@ span img {
   }
   h1 {
     font-size: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
   header p {
-    font-size: 18px;
+    font-size: 20px;
     white-space: normal;
+    line-height: 5rem;
   }
 
   .projects-grid {
