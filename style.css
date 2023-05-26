@@ -256,7 +256,6 @@ span img {
 
 @media screen and (max-width: 749px) {
   html {
-    width: 100%;
     background-size: cover;
     background-position: center;
   }
@@ -264,10 +263,11 @@ span img {
     grid-template-columns: repeat(1, 100%);
   }
   .nav-list {
+    margin: 0;
     padding: 10px;
   }
   .nav-list li {
-    border-right: 1px white;
+    border-right: 1px transparent;
     margin-right: 5px;
     padding-right: 10px;
   }
