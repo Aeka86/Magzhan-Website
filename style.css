@@ -255,7 +255,8 @@ span img {
 }
 
 @media screen and (max-width: 749px) {
-  html, body {
+  html,
+  body {
     background-size: cover;
     background-position: center;
     overflow-x: hidden;
@@ -271,13 +272,12 @@ span img {
     padding: 0;
     display: flex;
     justify-content: center;
-  align-items: center;
-  list-style: none;
+    align-items: center;
+    list-style: none;
   }
   .nav-list li {
     border-right: 1px transparent;
     margin: 0;
-    /* padding-right: 10px; */
     padding: 0 5px;
   }
   .content-wrap {
@@ -312,9 +312,5 @@ span img {
   }
   .img1 {
     width: 100%;
-  }
-
-  .box_container {
-    background-color: #454545;
   }
 }
